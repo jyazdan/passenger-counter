@@ -1,0 +1,46 @@
+body {
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),  url("https://media.cnn.com/api/v1/images/stellar/prod/200430124139-new-york-city-subway.jpg?q=w_1600,h_1067,x_0,y_0,c_fill");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-weight: bold;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+h1 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: white;
+}
+
+h2 {
+  font-size: 50px;
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: white;
+}
+
+button {
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  font-weight: bold;
+  width: 200px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+#increment-btn {
+  background: blue;
+  cursor: pointer;
+}
+
+#save-btn {
+  background: darkgreen;
+  cursor: pointer;
+}
+
+#save-el {
+  color: white;
+}
